@@ -1,7 +1,7 @@
 {
-    "name": "vendor/shop-package123",
+    "name": "debik3090/shop-package",
     "description": "Laravel 12 shop package with products management",
-    "type": "laravel-package",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -13,21 +13,21 @@
         "php": "^8.2",
         "laravel/framework": "^12.0"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Vendor\\ShopPackage123\\ShopServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
-            "Vendor\\ShopPackage\\": "src/"
+            "Debik3090\\ShopPackage\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\ShopPackage\\Tests\\": "tests/"
+            "Debik3090\\ShopPackage\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Debik3090\\ShopPackage\\ShopServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",

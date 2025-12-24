@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\ShopPackage;
+namespace Debik3090\ShopPackage;
 
 use Illuminate\Support\ServiceProvider;
 

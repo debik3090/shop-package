@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\ShopPackage\\ShopServiceProvider"
+                "Vendor\\ShopPackage123\\ShopServiceProvider"
             ]
         }
     },

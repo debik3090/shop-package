@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\ShopPackage\Http\Controllers;
+namespace Debik3090\ShopPackage\Http\Controllers;
 
-use Vendor\ShopPackage\Models\Product;
+use Debik3090\ShopPackage\Models\Product;
 use Illuminate\Routing\Controller;
 
 class ProductController extends Controller
